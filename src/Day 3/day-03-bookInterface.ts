@@ -13,4 +13,4 @@ const printBookInfo = (val: Book) => {
     return val
 }
 
-console.log(printBookInfo(reader))
+console.log(printBookInfo(reader));
