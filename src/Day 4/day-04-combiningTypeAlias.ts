@@ -7,12 +7,12 @@ type Employee = Person & {
     employeeId: number,
 };
 
-const user: Employee = {
+const employee: Employee = {
     name: 'Prinz',
     age: 20,
     employeeId: 2334,
 };
 
-console.log(user.name);
-console.log(user.age);
-console.log(user.employeeId);
+console.log(employee.name);
+console.log(employee.age);
+console.log(employee.employeeId);
