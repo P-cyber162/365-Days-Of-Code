@@ -8,4 +8,4 @@ const printUser = (value: string | number ): void => {
 }
 
 printUser(25);
-printUser('Hello');
+printUser('Hello')
